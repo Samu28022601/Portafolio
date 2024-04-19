@@ -1,0 +1,156 @@
+/* Estilos generales */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del menú */
+.menu {
+    background-color: #f2f2f2;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.menu__header {
+    display: flex;
+    align-items: center;
+}
+
+.menu__title {
+    margin-left: 10px;
+}
+
+.menu__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu__list li {
+    margin: 0 10px;
+}
+
+.menu__list a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilos del header/title/hero */
+.title {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+}
+
+.title__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title__content {
+    margin-left: 20px;
+}
+
+.title__network {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.title__network li {
+    margin: 0 10px;
+}
+
+/* Más estilos para las demás secciones */
+
+/* Estilos de habilidades */
+.skills__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skills__box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos de hobbies */
+.hobbies__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hobbies__box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos de formación académica */
+.academic__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.academic__courses__box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos de proyectos */
+.experience__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.experience__box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos de formulario de contacto */
+.formcontato__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formcontato__form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.formcontato__input,
+.formcontato__textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.formcontato__botao {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos de footer */
+.footer__container {
+    text-align: center;
+}
+
